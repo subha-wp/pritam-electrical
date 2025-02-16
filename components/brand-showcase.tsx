@@ -14,9 +14,9 @@ const brands = [
 
 export function BrandShowcase() {
   return (
-    <div className="py-12 bg-gray-100">
+    <div className="py-12 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-8">
+        <h2 className="text-3xl font-extrabold text-center mb-8">
           Trusted by Industry Leaders
         </h2>
         <Marquee className="py-4" speed={30}>
