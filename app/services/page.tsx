@@ -11,6 +11,12 @@ import {
   Wifi,
   Battery,
   Drill,
+  Music2,
+  Video,
+  Projector,
+  Speaker as SpeakerLoud,
+  Camera,
+  MonitorPlay,
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -42,10 +48,58 @@ export default function ServicesPage() {
       ],
     },
     {
+      icon: Music2,
+      title: "Sound & Light Systems",
+      description:
+        "Professional sound and lighting solutions for events, venues, and installations.",
+      features: [
+        "Professional audio systems",
+        "Stage lighting setup",
+        "DJ equipment installation",
+        "Acoustic optimization",
+      ],
+    },
+    {
+      icon: Video,
+      title: "Live Event Production",
+      description:
+        "Complete live event production services with state-of-the-art equipment.",
+      features: [
+        "Live video streaming",
+        "Multi-camera setup",
+        "Real-time video mixing",
+        "Event recording",
+      ],
+    },
+    {
+      icon: Projector,
+      title: "Visual Display Solutions",
+      description:
+        "High-quality visual display installations for events and permanent setups.",
+      features: [
+        "LED wall installation",
+        "Projection mapping",
+        "Digital signage",
+        "Display calibration",
+      ],
+    },
+    {
+      icon: MonitorPlay,
+      title: "AV Integration",
+      description:
+        "Seamless integration of audio-visual systems for corporate and entertainment venues.",
+      features: [
+        "Conference room setup",
+        "Control system integration",
+        "Video conferencing",
+        "Interactive displays",
+      ],
+    },
+    {
       icon: Drill,
       title: "Maintenance & Repairs",
       description:
-        "Regular maintenance and prompt repair services to keep your electrical systems running smoothly.",
+        "Regular maintenance and prompt repair services to keep your systems running smoothly.",
       features: [
         "Preventive maintenance",
         "Troubleshooting",
@@ -55,7 +109,7 @@ export default function ServicesPage() {
     },
     {
       icon: Shield,
-      title: "Safety Inspections",
+      title: "Safety & Compliance",
       description:
         "Thorough electrical safety inspections and certification services.",
       features: [
@@ -66,45 +120,10 @@ export default function ServicesPage() {
       ],
     },
     {
-      icon: Lightbulb,
-      title: "Lighting Design",
-      description:
-        "Custom lighting solutions for both indoor and outdoor spaces.",
-      features: [
-        "LED lighting upgrades",
-        "Landscape lighting",
-        "Motion sensors",
-        "Dimming systems",
-      ],
-    },
-    {
-      icon: Wifi,
-      title: "Smart Home Integration",
-      description:
-        "Modern smart home electrical solutions for automated living.",
-      features: [
-        "Smart lighting control",
-        "Home automation",
-        "Security system integration",
-        "Voice control setup",
-      ],
-    },
-    {
-      icon: Battery,
-      title: "Backup Power Solutions",
-      description: "Reliable backup power systems for homes and businesses.",
-      features: [
-        "Generator installation",
-        "UPS systems",
-        "Battery backup",
-        "Transfer switches",
-      ],
-    },
-    {
       icon: Clock,
       title: "24/7 Emergency Services",
       description:
-        "Round-the-clock emergency electrical services when you need them most.",
+        "Round-the-clock emergency services for all electrical and AV needs.",
       features: [
         "24/7 availability",
         "Rapid response",
@@ -119,8 +138,8 @@ export default function ServicesPage() {
       {/* Hero Section */}
       <section className="relative h-[400px] flex items-center justify-center">
         <Image
-          src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=1920&h=400&fit=crop"
-          alt="Electrical Services"
+          src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1920&h=400&fit=crop"
+          alt="Event Services"
           fill
           className="object-cover brightness-50"
           priority
@@ -128,8 +147,7 @@ export default function ServicesPage() {
         <div className="relative container mx-auto px-4 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
           <p className="text-xl max-w-2xl mx-auto">
-            Comprehensive electrical solutions for residential and commercial
-            properties
+            Comprehensive electrical and audio-visual solutions for every need
           </p>
         </div>
       </section>
@@ -167,11 +185,11 @@ export default function ServicesPage() {
           <div className="max-w-2xl mx-auto">
             <Zap className="h-12 w-12 mx-auto mb-6" />
             <h2 className="text-3xl font-bold mb-4">
-              Need Electrical Services?
+              Need Professional Services?
             </h2>
             <p className="mb-8">
               Contact us today for a free consultation. Our expert team is ready
-              to help with any electrical project.
+              to help with any electrical or audio-visual project.
             </p>
             <Button size="lg" variant="secondary" asChild>
               <Link href="/contact">Get a Free Quote</Link>

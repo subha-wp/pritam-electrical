@@ -123,7 +123,14 @@ export function Footer() {
 
         <div className="mt-8 border-t pt-8">
           <p className="text-sm text-muted-foreground text-center">
-            © {new Date().getFullYear()} PowerPro Electric. All rights reserved.
+            © {new Date().getFullYear()} Pritam Electrical. All rights reserved.
+            Developed With ❤️ by{" "}
+            <a
+              href="https://www.nextcoder.co.in/"
+              className="font-semibold text-primary"
+            >
+              nextcoder
+            </a>
           </p>
         </div>
       </div>
