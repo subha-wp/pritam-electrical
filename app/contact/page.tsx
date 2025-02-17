@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import {
   Form,
   FormControl,
@@ -9,21 +9,21 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { zodResolver } from "@hookform/resolvers/zod"
-import { Phone, Mail, MapPin, Clock } from "lucide-react"
-import { useForm } from "react-hook-form"
-import * as z from "zod"
-import Image from "next/image"
+} from "@/components/ui/form";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { useForm } from "react-hook-form";
+import * as z from "zod";
+import Image from "next/image";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
   email: z.string().email("Invalid email address"),
   phone: z.string().min(10, "Phone number must be at least 10 digits"),
   message: z.string().min(10, "Message must be at least 10 characters"),
-})
+});
 
 export default function ContactPage() {
   const form = useForm<z.infer<typeof formSchema>>({
@@ -34,18 +34,18 @@ export default function ContactPage() {
       phone: "",
       message: "",
     },
-  })
+  });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     // In a real application, you would handle form submission here
-    console.log(values)
+    console.log(values);
   }
 
   const contactInfo = [
     {
       icon: Phone,
       title: "Phone",
-      details: ["(123) 456-7890", "Emergency: (123) 456-7899"],
+      details: ["+91 7501177254", "Emergency: +91 9932706674"],
     },
     {
       icon: Mail,
@@ -55,14 +55,14 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: "Address",
-      details: ["1234 Electric Ave", "City, State 12345"],
+      details: ["Dakshin Rajarampur, Kulpi", "South 24 Parganas, W.B, 743348"],
     },
     {
       icon: Clock,
       title: "Hours",
       details: ["Mon-Fri: 8:00 AM - 6:00 PM", "24/7 Emergency Service"],
     },
-  ]
+  ];
 
   return (
     <div className="min-h-screen">
@@ -108,7 +108,10 @@ export default function ContactPage() {
             <Card className="p-6 lg:col-span-2">
               <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
               <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                <form
+                  onSubmit={form.handleSubmit(onSubmit)}
+                  className="space-y-6"
+                >
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <FormField
                       control={form.control}
@@ -177,5 +180,5 @@ export default function ContactPage() {
         </div>
       </section>
     </div>
-  )
+  );
 }
