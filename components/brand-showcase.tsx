@@ -2,14 +2,9 @@ import Image from "next/image";
 import { Marquee } from "./marquee";
 
 const brands = [
-  { name: "Apple", logo: "/placeholder.svg?height=80&width=80" },
-  { name: "Google", logo: "/placeholder.svg?height=80&width=80" },
-  { name: "Microsoft", logo: "/placeholder.svg?height=80&width=80" },
-  { name: "Amazon", logo: "/placeholder.svg?height=80&width=80" },
-  { name: "Facebook", logo: "/placeholder.svg?height=80&width=80" },
-  { name: "Tesla", logo: "/placeholder.svg?height=80&width=80" },
-  { name: "Netflix", logo: "/placeholder.svg?height=80&width=80" },
-  { name: "Adobe", logo: "/placeholder.svg?height=80&width=80" },
+  { name: "wbsedcl", logo: "/wbsedcl.png" },
+  { name: "wbsetcl", logo: "/wbsetcl.png" },
+  { name: "PWD", logo: "/pwd.png" },
 ];
 
 export function BrandShowcase() {
@@ -28,9 +23,9 @@ export function BrandShowcase() {
               <Image
                 src={brand.logo || "/placeholder.svg"}
                 alt={`${brand.name} logo`}
-                width={80}
-                height={80}
-                className="max-w-full h-auto"
+                width={100}
+                height={70}
+                className="max-w-[100px] h-[100px]"
               />
             </div>
           ))}
