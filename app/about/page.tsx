@@ -13,7 +13,6 @@ export default function AboutPage() {
   const governmentInfo = [
     { label: "GST No", value: "19AWUPM9315QIZA" },
     { label: "WEBSEDCL Vendor Code", value: "513671" },
-    { label: "PWD Vendor Code", value: "PWD789012" },
   ];
 
   return (
@@ -74,7 +73,7 @@ export default function AboutPage() {
               Our official registrations and vendor codes for government
               contracts:
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {governmentInfo.map((info) => (
                 <Card key={info.label} className="p-6">
                   <h3 className="text-xl font-semibold mb-2">{info.label}</h3>

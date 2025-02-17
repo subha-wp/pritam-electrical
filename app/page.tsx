@@ -97,7 +97,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative h-[600px] flex items-center justify-center">
         <Image
-          src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1920&h=600&fit=crop"
+          src="https://www.polyu.edu.hk/eee/-/media/Department/EEE/Content/Study/Bachelor-of-Engineering-Scheme-in-Electrical-Engineering/electricity-workers-and-pylon-silhouette-picture-id1252617520.jpg?bc=ffffff&h=1080&w=1600&rev=d2a46c29969048a29582cfed2ac7e71e&hash=FCE72FB05224F08BA647C669486C7292"
           alt="Electrician at work"
           fill
           className="object-cover brightness-50"

@@ -38,7 +38,9 @@ export function Header() {
                 {item.name}
               </Link>
             ))}
-            <Button>Get a Quote</Button>
+            <Button size="default" asChild>
+              <Link href="/contact">Get a Quote</Link>
+            </Button>
           </div>
 
           {/* Mobile Navigation */}
@@ -73,7 +75,9 @@ export function Header() {
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full">Get a Quote</Button>
+                <Button size="lg" asChild>
+                  <Link href="/contact">Get a Quote</Link>
+                </Button>
               </div>
             </div>
           </div>

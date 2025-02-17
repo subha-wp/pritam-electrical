@@ -50,7 +50,7 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: "Email",
-      details: ["info@powerpro.com", "support@powerpro.com"],
+      details: ["contact@pritamelectrical.in", "support@pritamelectrical.in"],
     },
     {
       icon: MapPin,
@@ -85,13 +85,13 @@ export default function ContactPage() {
 
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Contact Information */}
             <div className="lg:col-span-1">
               <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
                 {contactInfo.map((info) => (
-                  <Card key={info.title} className="p-6">
+                  <Card key={info.title} className="p-6 ">
                     <info.icon className="h-6 w-6 text-primary mb-4" />
                     <h3 className="font-semibold mb-2">{info.title}</h3>
                     {info.details.map((detail) => (
@@ -104,78 +104,14 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Contact Form */}
-            <Card className="p-6 lg:col-span-2">
-              <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
-              <Form {...form}>
-                <form
-                  onSubmit={form.handleSubmit(onSubmit)}
-                  className="space-y-6"
-                >
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <FormField
-                      control={form.control}
-                      name="name"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>Name</FormLabel>
-                          <FormControl>
-                            <Input placeholder="Your name" {...field} />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <FormField
-                      control={form.control}
-                      name="email"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>Email</FormLabel>
-                          <FormControl>
-                            <Input placeholder="Your email" {...field} />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                  </div>
-                  <FormField
-                    control={form.control}
-                    name="phone"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>Phone</FormLabel>
-                        <FormControl>
-                          <Input placeholder="Your phone number" {...field} />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-                  <FormField
-                    control={form.control}
-                    name="message"
-                    render={({ field }) => (
-                      <FormItem>
-                        <FormLabel>Message</FormLabel>
-                        <FormControl>
-                          <Textarea
-                            placeholder="How can we help you?"
-                            className="min-h-[150px]"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
-                  <Button type="submit" className="w-full">
-                    Send Message
-                  </Button>
-                </form>
-              </Form>
-            </Card>
+            <div className="border w-full rounded-lg overflow-hidden md:col-span-2">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8795.288827954553!2d88.24171180022189!3d22.050994627326144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0259323d6f7189%3A0x1e40eb4cca3af1f8!2sNextCode%20IT%20Solution%20%7C%20affordable%20Web%20Design%20%26%20Web%20Development%20service%20in%20kolkata!5e0!3m2!1sen!2sin!4v1739773885542!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
