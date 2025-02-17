@@ -111,10 +111,10 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@powerpro.com"
+                  href="mailto:contact@pritamelectrical.in"
                   className="text-sm text-muted-foreground hover:text-primary"
                 >
-                  info@powerpro.com
+                  contact@pritamelectrical.in
                 </a>
               </li>
             </ul>
