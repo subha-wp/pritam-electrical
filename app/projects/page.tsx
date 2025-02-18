@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function ProjectsPage() {
   const projects = [
     {
-      title: "PWD Temporary Electrical Installation",
+      title: "PWD Temporary / Ai Work Electrical Installation",
       category: "Government",
       description:
         "Temporary electrical installation and DG Set. for accommodation of CAPF for various locations of kulpi PS under sundarban police district. LokSobha - 2024",
@@ -13,7 +13,7 @@ export default function ProjectsPage() {
       services: ["Electrical Installation", "Energy Management"],
     },
     {
-      title: "Kulpi Block Development",
+      title: "Kulpi Block Development / Ai Work",
       category: "Government",
       description:
         "Electrification work on hire basis electrical materials including address system etc, at DCRC venue of kulpi Janapriya High School-2024.",
@@ -21,7 +21,7 @@ export default function ProjectsPage() {
       services: ["Audio System", "Lighting System", "CCTV Installation"],
     },
     {
-      title: "SUNDARBAN POLICE DISTRICT",
+      title: "SUNDARBAN POLICE DISTRICT / Ai Work",
       category: "Government",
       description:
         "Supply & Installation of Audio Visual on hire basis during the main brieing at kakdwip collage ground in c/w Ganga Sagar Mela -2025",
@@ -34,7 +34,7 @@ export default function ProjectsPage() {
       ],
     },
     {
-      title: "PWD- Temporary Arrangement for Illumination",
+      title: "PWD- Temporary / Ai Work Arrangement for Illumination",
       category: "Government",
       description:
         "Arrangement for Illumination, PA System and DG Set for Bus Bufferzone at SH-1, at 2no. locations, from polerhat to mirzapur. Gangasagar Mela -2024",
