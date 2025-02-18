@@ -4,9 +4,6 @@ import { Card } from "@/components/ui/card";
 import {
   ArrowRight,
   Zap,
-  Building2,
-  HomeIcon,
-  Shield,
   Clock,
   Wrench,
   HardHat,
@@ -61,34 +58,31 @@ export default function HomePage() {
     {
       title: "GST Registered",
       description: "Government registered and compliant business entity",
-      code: "GST No: 19AWUPM9315QIZA",
+      code: "GST No: 19AWUPM9315Q1ZA",
     },
   ];
 
   const projects = [
     {
-      title: "WBSEDCL Substation",
+      title: "PWD Temporary Electrical Installation",
       description:
-        "Complete electrical system installation and maintenance for WBSEDCL substation.",
-      image:
-        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop",
+        "Temporary electrical installation and DG Set. for accommodation of CAPF for various locations of kulpi PS under sundarban police district. LokSobha - 2024",
+      image: "/pwd.png",
       type: "Government",
     },
     {
-      title: "PWD Infrastructure",
+      title: "Kulpi Block Development",
       description:
-        "Civil construction and electrical work for PWD infrastructure project.",
-      image:
-        "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=800&h=600&fit=crop",
+        "Electrification work on hire basis electrical materials including address system etc, at DCRC venue of kulpi Janapriya High School-2024.",
+      image: "/biswa-bangla.png",
       type: "Government",
     },
     {
-      title: "Industrial Installation",
+      title: "SUNDARBAN POLICE DISTRICT",
       description:
-        "Industrial-scale electrical and mechanical system installation.",
-      image:
-        "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=600&fit=crop",
-      type: "Industrial",
+        "Supply & Installation of Audio Visual on hire basis during the main brieing at kakdwip collage ground in c/w Ganga Sagar Mela -2025",
+      image: "/police.png",
+      type: "Government",
     },
   ];
 
@@ -206,12 +200,12 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {projects.map((project) => (
               <Card key={project.title} className="overflow-hidden">
-                <div className="relative h-48">
+                <div className="relative h-44">
                   <Image
                     src={project.image}
                     alt={project.title}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                   />
                 </div>
                 <div className="p-6">

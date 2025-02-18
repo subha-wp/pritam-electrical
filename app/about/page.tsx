@@ -4,14 +4,14 @@ import { Users, Clock, Award, Briefcase } from "lucide-react";
 
 export default function AboutPage() {
   const stats = [
-    { icon: Users, label: "Government Projects", value: "500+" },
-    { icon: Clock, label: "Years of Service", value: "25+" },
+    { icon: Users, label: "Government Projects", value: "200+" },
+    { icon: Clock, label: "Years of Service", value: "9+" },
     { icon: Award, label: "Certifications", value: "10+" },
-    { icon: Briefcase, label: "Skilled Technicians", value: "50+" },
+    { icon: Briefcase, label: "Skilled Technicians", value: "25+" },
   ];
 
   const governmentInfo = [
-    { label: "GST No", value: "19AWUPM9315QIZA" },
+    { label: "GST No", value: "19AWUPM9315Q1ZA" },
     { label: "WEBSEDCL Vendor Code", value: "513671" },
   ];
 
@@ -29,7 +29,7 @@ export default function AboutPage() {
         <div className="relative container mx-auto px-4 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About Us</h1>
           <p className="text-xl max-w-2xl mx-auto">
-            Your trusted government electrical contractor since 1998
+            Your trusted government electrical contractor since 2016
           </p>
         </div>
       </section>
@@ -40,7 +40,7 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl font-bold mb-6">Our Commitment</h2>
             <p className="text-lg text-muted-foreground mb-4">
-              Established in 1998, we have grown to become a leading government
+              Established in 2016, we have grown to become a leading government
               electrical contractor, serving various public sector entities with
               dedication and expertise. Our commitment to quality, safety, and
               efficiency has made us a preferred choice for government projects.

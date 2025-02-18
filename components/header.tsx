@@ -22,8 +22,9 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex flex-col items-end">
             <Link href="/" className="flex items-center space-x-2">
-              <Bolt className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold">Pritam Electrical</span>
+              <span className="text-lg md:text-xl font-bold">
+                M/S Pritam Electricals & Electronics
+              </span>
             </Link>
           </div>
 
