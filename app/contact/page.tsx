@@ -1,10 +1,27 @@
-"use client";
-
 import { Card } from "@/components/ui/card";
-
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Metadata } from "next";
 
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description:
+    "Get in touch with Pritam Electrical for all your electrical, civil, and mechanical needs. Available 24/7 for emergency services.",
+  keywords: [
+    "contact Pritam Electrical",
+    "electrical contractor contact",
+    "emergency electrical service",
+    "Kulpi electrical contractor",
+    "South 24 Parganas electrical services",
+    "electrical service contact",
+  ],
+  openGraph: {
+    title: "Contact Pritam Electrical - 24/7 Emergency Services Available",
+    description:
+      "Get in touch with Pritam Electrical for all your electrical, civil, and mechanical needs. Available 24/7 for emergency services.",
+  },
+};
 
 export default function ContactPage() {
   const contactInfo = [

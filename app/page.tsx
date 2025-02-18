@@ -1,4 +1,5 @@
 import { BrandShowcase } from "@/components/brand-showcase";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import {
@@ -143,9 +144,7 @@ export default function HomePage() {
                 <p className="text-muted-foreground mb-4">
                   {credential.description}
                 </p>
-                <p className="text-sm font-medium text-primary">
-                  {credential.code}
-                </p>
+                <Badge className="text-sm font-medium">{credential.code}</Badge>
               </Card>
             ))}
           </div>

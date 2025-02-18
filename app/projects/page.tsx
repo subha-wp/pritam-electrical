@@ -1,6 +1,26 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Projects",
+  description:
+    "Explore our portfolio of successful government electrical projects, including power distribution, lighting solutions, and emergency installations.",
+  keywords: [
+    "electrical projects",
+    "government electrical work",
+    "power distribution projects",
+    "lighting installation projects",
+    "emergency electrical projects",
+    "industrial electrical projects",
+  ],
+  openGraph: {
+    title: "Pritam Electrical Projects - Government & Industrial Solutions",
+    description:
+      "Explore our portfolio of successful government electrical projects, including power distribution, lighting solutions, and emergency installations.",
+  },
+};
 
 export default function ProjectsPage() {
   const projects = [

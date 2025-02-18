@@ -35,6 +35,31 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Services",
+  description:
+    "Comprehensive electrical, civil, and mechanical services for government and industrial projects. Licensed and certified solutions.",
+  keywords: [
+    "electrical services",
+    "civil engineering services",
+    "mechanical services",
+    "power distribution",
+    "industrial electrical",
+    "government contractor",
+    "emergency electrical",
+    "lighting solutions",
+    "sound systems",
+    "video production",
+    "construction services",
+  ],
+  openGraph: {
+    title: "Pritam Electrical Services - Comprehensive Engineering Solutions",
+    description:
+      "Comprehensive electrical, civil, and mechanical services for government and industrial projects. Licensed and certified solutions.",
+  },
+};
 
 export default function ServicesPage() {
   const categories = [

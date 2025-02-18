@@ -1,6 +1,28 @@
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 import { Users, Clock, Award, Briefcase } from "lucide-react";
+import ImageGrid from "@/components/ImageGrid";
+import { Badge } from "@/components/ui/badge";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description:
+    "Learn about Pritam Electrical's history, expertise, and commitment to quality electrical services. Government approved contractor since 2016.",
+  keywords: [
+    "about Pritam Electrical",
+    "electrical contractor history",
+    "government electrical services",
+    "certified electrical contractor",
+    "experienced electrical team",
+    "West Bengal electrical company",
+  ],
+  openGraph: {
+    title: "About Pritam Electrical - Your Trusted Electrical Contractor",
+    description:
+      "Learn about Pritam Electrical's history, expertise, and commitment to quality electrical services. Government approved contractor since 2016.",
+  },
+};
 
 export default function AboutPage() {
   const stats = [
@@ -77,13 +99,14 @@ export default function AboutPage() {
               {governmentInfo.map((info) => (
                 <Card key={info.label} className="p-6">
                   <h3 className="text-xl font-semibold mb-2">{info.label}</h3>
-                  <p className="text-lg font-bold text-primary">{info.value}</p>
+                  <Badge className="text-lg font-bold ">{info.value}</Badge>
                 </Card>
               ))}
             </div>
           </div>
         </div>
       </section>
+      <ImageGrid />
     </div>
   );
 }
