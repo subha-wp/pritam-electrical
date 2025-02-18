@@ -65,6 +65,13 @@ export default function HomePage() {
 
   const projects = [
     {
+      title: "3 phase new services connection",
+      description:
+        "Errection order for efecting 3 phase new services connection by new installation 25 kva DTR IRO PHE 1...Under Patharpratima C.C.C",
+      image: "/wbsedcl.png",
+      type: "Government",
+    },
+    {
       title: "PWD Temporary Electrical Installation",
       description:
         "Temporary electrical installation and DG Set. for accommodation of CAPF for various locations of kulpi PS under sundarban police district. LokSobha - 2024",
@@ -196,7 +203,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {projects.map((project) => (
               <Card key={project.title} className="overflow-hidden">
                 <div className="relative h-44">
