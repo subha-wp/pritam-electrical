@@ -25,6 +25,22 @@ export const metadata: Metadata = {
 export default function ProjectsPage() {
   const projects = [
     {
+      title: "3 Phase new services connection",
+      category: "Government",
+      description:
+        "Errection order for efecting 3 phase new services connection by new installation 25 kva DTR IRO PHE 1...Under Patharpratima C.C.C",
+      image: "/wbsedcl.png",
+      services: ["Transformer Installation", "New Connection"],
+    },
+    {
+      title: "Installation of 56 Nos. Single phase enerygy meter.",
+      category: "Government",
+      description:
+        "Single service Line with 2 core 4sq.mm/6sq.mm PVC cable and supply all materials for effecting new service under kulpi c.c.c",
+      image: "/wbsedcl.png",
+      services: ["Transformer Installation", "New Connection"],
+    },
+    {
       title: "PWD Temporary / Ai Work Electrical Installation",
       category: "Government",
       description:
