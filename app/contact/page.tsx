@@ -16,7 +16,7 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: "Email",
-      details: ["contact@pritamelectrical.in", "support@pritamelectrical.in"],
+      details: ["contact@pritamelectricals.in", "support@pritamelectricals.in"],
     },
     {
       icon: MapPin,
