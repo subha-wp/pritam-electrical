@@ -99,7 +99,7 @@ export default function HomePage() {
         />
         <div className="relative container mx-auto px-4 text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Government Approved Electrical Contractors
+            Government Approved Contractor
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
             Licensed and registered contractor providing professional
