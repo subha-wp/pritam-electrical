@@ -89,7 +89,7 @@ export default function ContactPage() {
 
             <div className="border w-full rounded-lg overflow-hidden md:col-span-2">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8795.288827954553!2d88.24171180022189!3d22.050994627326144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0259323d6f7189%3A0x1e40eb4cca3af1f8!2sNextCode%20IT%20Solution%20%7C%20affordable%20Web%20Design%20%26%20Web%20Development%20service%20in%20kolkata!5e0!3m2!1sen!2sin!4v1739773885542!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5229.291228509597!2d88.24522360110447!3d22.050695875189966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x838b4be6f8db80cb%3A0xff656eed2e505884!2sM%2FS%20PRITAM%20ELECTRICALS%20%26%20ELECTRONICS!5e0!3m2!1sen!2sin!4v1739931695354!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 loading="lazy"
