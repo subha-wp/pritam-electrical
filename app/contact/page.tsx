@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "electrical service contact",
   ],
   openGraph: {
-    title: "Contact Pritam Electrical - 24/7 Emergency Services Available",
+    title: "Contact Pritam Electricals - 24/7 Emergency Services Available",
     description:
       "Get in touch with Pritam Electrical for all your electrical, civil, and mechanical needs. Available 24/7 for emergency services.",
   },

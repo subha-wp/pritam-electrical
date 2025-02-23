@@ -14,12 +14,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://pritamelectricals.in"),
   title: {
-    default: "Pritam Electrical - Professional Electrical Contractors",
+    default: "Pritam Electricals - Professional Electrical Contractors",
     template: "%s | Pritam Electrical",
   },
   description:
     "Expert electrical services for government and private projects. Licensed contractor providing professional electrical, civil, and mechanical solutions.",
   keywords: [
+    "pritam electricals",
     "electrical contractor",
     "government contractor",
     "electrical services",
