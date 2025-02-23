@@ -89,10 +89,10 @@ export default function ContactPage() {
 
             <div className="border w-full rounded-lg overflow-hidden md:col-span-2">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5229.291228509597!2d88.24522360110447!3d22.050695875189966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x838b4be6f8db80cb%3A0xff656eed2e505884!2sM%2FS%20PRITAM%20ELECTRICALS%20%26%20ELECTRONICS!5e0!3m2!1sen!2sin!4v1739931695354!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.949089415503!2d88.2446435!3d22.051542899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x838b4be6f8db80cb%3A0xff656eed2e505884!2sM%2FS%20PRITAM%20ELECTRICALS%20%26%20ELECTRONICS!5e0!3m2!1sen!2sin!4v1740276047837!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
-                loading="lazy"
+                allowFullScreen
               ></iframe>
             </div>
           </div>
